@@ -38,8 +38,6 @@ app.component('number',NumberBase);
 app.component('linear',linear);
 app.component('quadratic',quadratic);
 app.component('my-text',Text);
-app.component('currency-converter',CurrencyConverter);
-app.component('temperature-converter',TemperatureConverter);
-app.component('time-converter',TimeConverter);
+
 app.component('footer-my',Footer);
 app.mount('#app')

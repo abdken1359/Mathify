@@ -13,7 +13,7 @@ const routes = [
   {
     path:'/converters',
     name:'Converters',
-    component:() => import('./views/converters.vue')
+    component:() => import('./views/Converters.vue')
   },
    {
     path:'/algebra_solver',
