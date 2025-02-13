@@ -18,9 +18,7 @@ import Text from "./components/text.vue"
 import linear from "./components/solvers/linear.vue"
 import quadratic from "./components/solvers/quadratic.vue"
 import NumberBase from "./components/converters/numberbase.vue"
-import CurrencyConverter from "./components/Modals/curConverter.vue"
-import TemperatureConverter from "./components/Modals/tempConverter.vue"
-import TimeConverter from "./components/Modals/timeConverter.vue"
+
 import Footer from "./components/footer.vue"
 const app = createApp(App);
 const head = createHead();
