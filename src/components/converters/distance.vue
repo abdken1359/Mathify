@@ -13,7 +13,7 @@
 	
 </style>
 <template>
-	<Transition>
+	
 	<div>
 	<div class="d-flex align-center">
 	                <h2 class="text-deep-purple-accent-2 mb-2">Distance Converter</h2>
@@ -110,7 +110,7 @@
                 <v-snackbar timeout="2000" color="indigo" rounded="xl" v-model="snackbars.mm">{{milliSnack}}</v-snackbar>
                 <v-snackbar timeout="2000" color="indigo" rounded="xl" v-model="snackbars.in">{{inchSnack}}</v-snackbar>
             </div>
-             </Transition>  
+             
 </template>
 <script>
 	export default{

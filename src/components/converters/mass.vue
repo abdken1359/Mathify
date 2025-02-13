@@ -13,7 +13,7 @@
 	
 </style>
 <template>
-	<Transition>
+	
 		<div>
 			<div class="d-flex align-center">
 	                <h2 class="text-deep-purple-accent-2 mb-2">Mass Converter</h2>
@@ -106,7 +106,7 @@
 
 
 		</div>
-	</Transition>
+	
 </template>
 <script>
 	export default{

@@ -14,7 +14,7 @@
 </style>
 
 <template>
-	<Transition>
+	
 		<div>
 			<div class="d-flex align-center">
 	                <h2 class="text-deep-purple-accent-2 mb-2">Number Base Converter</h2>
@@ -47,7 +47,9 @@
 	              	</v-list>
 	              </v-card>
 	          </v-dialog>
+
 	               </div>
+	               <v-divider color="indigo-lighten-2"></v-divider>
 	        <v-row class="my-4" justify="center">
 
 	        	<v-col cols="12" md="6" v-show="views.d">
@@ -70,7 +72,7 @@
 	       
 	
 </div>
-</Transition>
+
 </template>
 <script>
 	export default{

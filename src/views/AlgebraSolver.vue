@@ -111,11 +111,13 @@ import { useHead } from '@unhead/vue'
 					case 1:
 						this.alItems[0].isActive=true;
 						this.alItems[1].isActive=false;
+						this.$vuetify.display.mdAndDown?this.nav=false:this.nav=true;
 						this.solver='linear'
 						break;
 					case 2:
 						this.alItems[0].isActive=false;
 						this.alItems[1].isActive=true;
+						this.$vuetify.display.mdAndDown?this.nav=false:this.nav=true;
 						this.solver='quadratic'
 					default:
 						// statements_def

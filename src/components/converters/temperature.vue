@@ -13,12 +13,13 @@
 	
 </style>
 <template>
-	<Transition>
+	
 	<div>
 			<div class="d-flex align-center">
 	                <h2 class="text-deep-purple-accent-2 mb-2">Temperature Converter</h2>
 	                <v-btn icon="mdi-dots-vertical" color="indigo" @click="optionsa=!optionsa" variant="text" class="mb-2" style="margin-left:auto" aria-label="See more options"></v-btn>
 	               </div>
+	               
 	               <v-dialog max-width="450"  transition="slide-y-transition" v-model="optionsa">
 	              	<v-card   class="overflow-auto">
 	              	<v-list>
@@ -81,7 +82,7 @@
                 <v-snackbar timeout="2000" color="indigo" rounded="xl" v-model="snackbars.ran">{{ranSnack}}</v-snackbar>
 	         
 </div>
-</Transition>
+
 </template>
 <script>
 	export default{

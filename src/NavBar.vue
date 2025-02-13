@@ -102,17 +102,17 @@
 
 <v-divider inset class="mx-2 d-none d-md-flex" vertical></v-divider>
 <!--ABOUT-->
-<v-hover v-slot:default="{ isHovering, props }">
+
         <v-btn
-        v-bind="props"
-        :color="isHovering ? 'blue-accent-2' : ''"
+        
+        
         ripple
-        :active="about"
+    
         active-color="blue-accent-2"
-        prepend-icon="mdi-information-outline" text="About" class="d-none d-md-flex" @click="about=true">
+        icon="mdi-github" aria-label="View project on github"  href="https://github.com/abdken1359/Mathify">
            
         </v-btn>
-</v-hover>
+
 <!--Menu SMALL-->
 
 
@@ -148,7 +148,7 @@
                      
                  </v-list-item>
              </template>
-             <v-list-item value="about" role="button" title="About" subtitle="About App" color="indigo" prepend-icon="mdi-information-outline" @click="about=!about" :active="about"></v-list-item>
+            <!-- <v-list-item value="about" role="button" title="About" subtitle="About App" color="indigo" prepend-icon="mdi-information-outline" @click="about=!about" :active="about"></v-list-item>-->
             </v-list>
 
        

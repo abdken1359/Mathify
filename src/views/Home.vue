@@ -36,7 +36,7 @@
 			<v-img src="/Mathlogo.svg" alt="Robot illustration" max-width="80%" class="mx-auto"></v-img>
 		</v-col>-->
 			<v-col cols="12" md="6">
-			<h1 class="text-h3 text-center text-lg-h2 hero-title">Effortless Math at Your <span class="font-weight-black text-blue">Fingertips</span></h1>
+			<h1 class="text-h3 text-center text-lg-h2 hero-title">Effortless Maths at Your <span class="font-weight-black text-blue">Fingertips</span></h1>
 
 			<p class=" mt-4 font-weight-light text-h4" v-show="false">Mathify is your all-in-one tool for seamless unit conversions, quick calculations, and efficient problem-solving. Whether you’re working with numbers, formulas, or generators, Mathify helps you get accurate results in just a few clicks, making math simpler and more accessible for everyone, anytime, anywhere.</p>
 			<v-row class="mt-6 d-none d-md-flex" align="center" justify="center" >

@@ -106,11 +106,13 @@ import { useHead } from '@unhead/vue'
        	  this.conItems[1].isActive=false;
        	  this.conItems[2].isActive=false;
        	  this.conItems[3].isActive=false;
+       	  this.$vuetify.display.mdAndDown?this.nav=false:this.nav=true;
 
        		break;
        	case 2:
        	
        	  this.current='temperature'
+       	  this.$vuetify.display.mdAndDown?this.nav=false:this.nav=true;
        	  this.conItems[0].isActive=false;
        	  this.conItems[1].isActive=true;
        	  this.conItems[2].isActive=false;
@@ -121,6 +123,7 @@ import { useHead } from '@unhead/vue'
        	
        	  this.current='mass'
        	  this.conItems[0].isActive=false;
+       	  this.$vuetify.display.mdAndDown?this.nav=false:this.nav=true;
        	  this.conItems[1].isActive=false;
        	  this.conItems[2].isActive=true;
        	  this.conItems[3].isActive=false;
@@ -130,11 +133,13 @@ import { useHead } from '@unhead/vue'
        	  this.current='number'
        	  this.conItems[0].isActive=false;
        	  this.conItems[1].isActive=false;
+       	  this.$vuetify.display.mdAndDown?this.nav=false:this.nav=true;
        	  this.conItems[2].isActive=false;
        	  this.conItems[3].isActive=true;
        	  break; 	  
        	default:
        		// statements_def
+       		this.$vuetify.display.mdAndDown?this.nav=false:this.nav=true;
        		break;
 
        	}
