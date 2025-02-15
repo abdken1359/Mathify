@@ -24,7 +24,12 @@ const routes = [
     path:'/calculator',
     name:'Calculator',
     component:() => import('./views/Calculator.vue')
-  }
+  },
+    {
+      path: '/:pathMatch(.*)*',
+      name: 'not-found',
+      component: ()=>import('./components/notfound.vue')
+    }
 ];
 
 const router = createRouter({

@@ -237,8 +237,8 @@
 						this.errors.ran=false;
 						let fahrenheit=Number(value)
 						this.units.kelvin=Number(math.evaluate(`((5/9) * (${fahrenheit} - 32 )) + 273.15`).toFixed(this.precision))
-						this.units.celsuis=Number(math.Number(evaluate(`(5/9) * (${fahrenheit} - 32 ) `).toFixed(this.precision)))
-						this.units.rankine=Number(math.Number(evaluate(`${fahrenheit} + 459.67`).toFixed(this.precision)))
+						this.units.celsuis=Number(math.evaluate(`(5/9) * (${fahrenheit} - 32 ) `).toFixed(this.precision))
+						this.units.rankine=Number(math.evaluate(`${fahrenheit} + 459.67`).toFixed(this.precision))
 
 					}
 					if (Number(value)===-459.67) {
