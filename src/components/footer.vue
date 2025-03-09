@@ -1,7 +1,7 @@
 <template>
 	 <v-footer class="border-t-thin text-center">
 	 	<v-container>
-	 	&copy; 2025 Mathify, by <a href="https://abdielportfolio.netlify.app" class="text-blue" target="_blank"><em>Abdiel</em></a>
+	 	&copy; 2025 Mathify, by <a href="https://abdielk.netlify.app" class="text-blue" target="_blank"><em>Abdiel</em></a>
 	 </v-container>
 	 </v-footer>
 </template>
